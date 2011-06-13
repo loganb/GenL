@@ -21,11 +21,26 @@ Advantages
 * Interconnection safety: 20-pin microcontroller connector can be connected in either direction and function properly, reducing the risk damage due to user error
 * USB bus powered for low voltage electronics
 
+BOM
+----------
+12x 0.22µF Capacitors (http://components.arrow.com/part/detail/41292784S7821294N7429)
+16x 0.1µF  Capacitors (http://components.arrow.com/part/detail/42167798S7528926N7429)
+2x  100µF  Electrolytic Capacitors (http://components.arrow.com/part/detail/41714593S9048589N1432)
+2x  2-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703590S3494260N3303)
+5x  4-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703601S3511738N3303)
+1x  2x10 PIN header (http://components.arrow.com/part/detail/4690925S6170934N3303)
+1x  5mm LED
+8x  0.4 ohm current sense resistors (1W) (http://components.arrow.com/part/detail/37726611S6837442N1082)
+5x  1.2k ohm resistors (http://components.arrow.com/part/detail/24590168S9688418N1082)
+1x  IRF8714PBF MOSFET (surface mount) (http://components.arrow.com/part/detail/43467223S9550209N3340)
+4x  A3992 Motor Controllers (http://components.arrow.com/part/detail/42804152S9226473N6817)
+
+Total cost (in 1-board quantities): ~$30
+
+
 TODO
 ----
 
-* Label traces and general cleanup of schematic
-* Board heater sub-module (need to fit MOSFET and connector onto the board)
-* Proper power connectors (motor power is currently a pin header)
+* General cleanup of schematic
 * Fabrication and testing (design still completely theoretical!)
-* Use a standard 4-pin MOLEX connector from a PC power supply for both +5 and +12 power
+* Use a standard 4-pin MOLEX connector from a PC power supply for both +5 and +12 power (? maybe)
