@@ -23,8 +23,8 @@ Advantages
 * Interconnection safety: 20-pin microcontroller connector can be connected in either direction and function properly, reducing the risk damage due to user error
 * USB bus powered for low voltage electronics
 
-BOM
-----------
+BOM (Driver)
+------------
 * 12x 0.22µF Capacitors (http://components.arrow.com/part/detail/41292784S7821294N7429)
 * 16x 0.1µF  Capacitors (http://components.arrow.com/part/detail/42167798S7528926N7429)
 * 2x  100µF  Electrolytic Capacitors (http://components.arrow.com/part/detail/41714593S9048589N1432)
@@ -39,6 +39,26 @@ BOM
 
 Total cost (in 1-board quantities): ~$30
 
+BOM (Controller)
+----------------
+
+* 1x Teensy 2.0 (http://www.pjrc.com/store/teensy_pins.html)
+* More...
+
+Cost: ~$26
+
+BOM (Not on PCB)
+----------------
+* 3x Optointerruptors (http://components.arrow.com/part/detail/690701S2637435N3506)
+* 1x 20-conductor Ribbon (http://components.arrow.com/part/detail/2520919S3684624N3321)
+* 2x 20-conductor Female Plugs (http://components.arrow.com/part/detail/1318957S3517464N3321)
+* 1x Thermistor (http://components.arrow.com/part/detail/42078290S9672476N9769)
+* 1x Power Resistor 8r
+
+Cost: ~$8
+
+NOTE: Ribbon cable is sold in rolls of 30m
+
 
 TODO
 ----
@@ -47,3 +67,4 @@ TODO
 * Fabrication and testing (design still completely theoretical!)
 * Use a standard 4-pin MOLEX connector from a PC power supply for both +5 and +12 power (? maybe)
 * SMD layout for professional fabrication
+* 
