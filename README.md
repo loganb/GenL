@@ -31,7 +31,7 @@ BOM (Driver)
 * 2x  2-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703590S3494260N3303)
 * 5x  4-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703601S3511738N3303)
 * 1x  2x10 PIN header (http://components.arrow.com/part/detail/4690925S6170934N3303)
-* 1x  5mm LED
+* 3x  5mm LED
 * 8x  0.4 ohm current sense resistors (1W) (http://components.arrow.com/part/detail/37726611S6837442N1082)
 * 5x  1.2k ohm resistors (http://components.arrow.com/part/detail/24590168S9688418N1082)
 * 1x  IRF8714PBF MOSFET (surface mount) (http://components.arrow.com/part/detail/43467223S9550209N3340)
@@ -43,7 +43,7 @@ BOM (Controller)
 ----------------
 
 * 1x Teensy 2.0 (http://www.pjrc.com/store/teensy_pins.html)
-* More...
+* (More TBD: Connectors, Caps, Resistors)
 
 Cost: ~$26
 
@@ -54,6 +54,7 @@ BOM (Not on PCB)
 * 2x 20-conductor Female Plugs (http://components.arrow.com/part/detail/1318957S3517464N3321)
 * 1x Thermistor (http://components.arrow.com/part/detail/42078290S9672476N9769)
 * 1x Power Resistor 8r
+* (More TBD: Connectors)
 
 Cost: ~$8
 
