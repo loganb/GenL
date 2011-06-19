@@ -28,9 +28,10 @@ BOM (Driver)
 * 12x 0.22µF Capacitors (http://components.arrow.com/part/detail/41292784S7821294N7429)
 * 16x 0.1µF  Capacitors (http://components.arrow.com/part/detail/42167798S7528926N7429)
 * 2x  100µF  Electrolytic Capacitors (http://components.arrow.com/part/detail/41714593S9048589N1432)
-* 2x  2-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703590S3494260N3303)
+* 1x  Screw Terminal (http://components.arrow.com/part/detail/29554647S5460692N3303)
+* 1x  2-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703590S3494260N3303)
 * 5x  4-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703601S3511738N3303)
-* 1x  2x10 PIN header (http://components.arrow.com/part/detail/4690925S6170934N3303)
+* 1x  2x10 pin header (http://components.arrow.com/part/detail/4690925S6170934N3303)
 * 3x  5mm LED
 * 8x  0.4 ohm current sense resistors (1W) (http://components.arrow.com/part/detail/37726611S6837442N1082)
 * 5x  1.2k ohm resistors (http://components.arrow.com/part/detail/24590168S9688418N1082)
@@ -43,6 +44,14 @@ BOM (Controller)
 ----------------
 
 * 1x Teensy 2.0 (http://www.pjrc.com/store/teensy_pins.html)
+* 4x 1.2k ohm resistors
+* 4x 2µF Capacitors
+* 3x 270 ohm resistors
+* 1x 100k ohm resistor
+* 1x 4.7k ohm resistor
+* 3x 5-pin locking headers
+* 1x 2-pin locking header
+* 1x 2x10 pin header
 * (More TBD: Connectors, Caps, Resistors)
 
 Cost: ~$26
@@ -68,4 +77,4 @@ TODO
 * Fabrication and testing (design still completely theoretical!)
 * Use a standard 4-pin MOLEX connector from a PC power supply for both +5 and +12 power (? maybe)
 * SMD layout for professional fabrication
-* 
+
