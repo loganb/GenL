@@ -25,17 +25,17 @@ Advantages
 
 BOM (Driver)
 ------------
-* 12x 0.22µF Capacitors (http://components.arrow.com/part/detail/41292784S7821294N7429)
-* 16x 0.1µF  Capacitors (http://components.arrow.com/part/detail/42167798S7528926N7429)
+* 20x 0.22µF Capacitors (http://components.arrow.com/part/detail/41292784S7821294N7429)
+* 8x 0.1µF  Capacitors (http://components.arrow.com/part/detail/42167798S7528926N7429)
 * 2x  100µF  Electrolytic Capacitors (http://components.arrow.com/part/detail/41714593S9048589N1432)
 * 1x  Screw Terminal (http://components.arrow.com/part/detail/29554647S5460692N3303)
-* 1x  2-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703590S3494260N3303)
+* 2x  2-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703590S3494260N3303)
 * 5x  4-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703601S3511738N3303)
 * 1x  2x10 pin header (http://components.arrow.com/part/detail/4690925S6170934N3303)
-* 3x  5mm LED
+* 4x  5mm LED
 * 8x  0.4 ohm current sense resistors (1W) (http://components.arrow.com/part/detail/37726611S6837442N1082)
-* 5x  1.2k ohm resistors (http://components.arrow.com/part/detail/24590168S9688418N1082)
-* 1x  IRF8714PBF MOSFET (surface mount) (http://components.arrow.com/part/detail/43467223S9550209N3340)
+* 6x  1.2k ohm resistors (http://components.arrow.com/part/detail/24590168S9688418N1082)
+* 2x  IRF8714PBF MOSFET (surface mount) (http://components.arrow.com/part/detail/43467223S9550209N3340)
 * 4x  A3992 Motor Controllers (http://components.arrow.com/part/detail/42804152S9226473N6817)
 
 Total cost (in 1-board quantities): ~$30
@@ -46,13 +46,14 @@ BOM (Controller)
 * 1x Teensy 2.0 (http://www.pjrc.com/store/teensy_pins.html)
 * 4x 1.2k ohm resistors
 * 4x 2µF Capacitors
+* 2x 0.22µF Capacitors
 * 3x 270 ohm resistors
-* 1x 100k ohm resistor
-* 1x 4.7k ohm resistor
+* 2x 100k ohm resistor
+* 2x 4.7k ohm resistor
 * 3x 5-pin locking headers
-* 1x 2-pin locking header
+* 2x 2-pin locking header
 * 1x 2x10 pin header
-* (More TBD: Connectors, Caps, Resistors)
+* 1x 1x1 pin header (or jumper cable)
 
 Cost: ~$26
 
@@ -61,7 +62,7 @@ BOM (Not on PCB)
 * 3x Optointerruptors (http://components.arrow.com/part/detail/690701S2637435N3506)
 * 1x 20-conductor Ribbon (http://components.arrow.com/part/detail/2520919S3684624N3321)
 * 2x 20-conductor Female Plugs (http://components.arrow.com/part/detail/1318957S3517464N3321)
-* 1x Thermistor (http://components.arrow.com/part/detail/42078290S9672476N9769)
+* 2x Thermistor (http://components.arrow.com/part/detail/42078290S9672476N9769)
 * 1x Power Resistor 8r
 * (More TBD: Connectors)
 
@@ -70,11 +71,23 @@ Cost: ~$8
 NOTE: Ribbon cable is sold in rolls of 30m
 
 
+Release Notes
+-------------
+
+New in v2:
+
+* Completely new driver board layout with large ground planes on both sides for improved heat dissipation
+* Redesigned boards now include connections for 2 thermistors and heating circuits for heated bed support
+* Half the drivers are on a second SPI bus and connected to the Teensy's USART. Drivers can now be programmed two at a time
+* Redesign of the inter-board connector to simplify (most) traces
+* Larger and shorter power traces on the driver board
+* NOTE: Driver/Board combinations are NOT pin-compatible across major version numbers
+
+
 TODO
 ----
 
-* General cleanup of schematic
 * Fabrication and testing (design still completely theoretical!)
-* Use a standard 4-pin MOLEX connector from a PC power supply for both +5 and +12 power (? maybe)
 * SMD layout for professional fabrication
-
+* Find appropriate female connectors for the locking pin headers
+* Find a replacement for the IRF8714PBF that is tolerant of +36V
