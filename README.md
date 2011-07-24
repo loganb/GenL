@@ -10,6 +10,8 @@ The end design will consist of two boards: A motor/heater controller board and a
 
 For board and schematic screenshots, see: https://github.com/loganb/GenL/wiki
 
+For more information, see the GenL blog: http://genl.posterous.com/
+
 Advantages
 ----------
 
