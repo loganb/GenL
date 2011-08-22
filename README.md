@@ -33,10 +33,10 @@ BOM (Driver)
 * 1x  Screw Terminal (http://components.arrow.com/part/detail/29554647S5460692N3303)
 * 2x  2-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703590S3494260N3303)
 * 5x  4-pin locking headers (0.1"/2.54mm) (http://components.arrow.com/part/detail/4703601S3511738N3303)
-* 1x  2x10 pin header (http://components.arrow.com/part/detail/4690925S6170934N3303)
+* 1x  2x10 pin header (http://components.arrow.com/part/detail/4690939S2927515N3303)
 * 4x  5mm LED
 * 8x  0.4 ohm current sense resistors (1W) (http://components.arrow.com/part/detail/37726611S6837442N1082)
-* 6x  1.2k ohm resistors (http://components.arrow.com/part/detail/24590168S9688418N1082)
+* 6x  1.2k ohm resistors (http://components.arrow.com/part/detail/47563839S3426682N1174)
 * 2x  IRF8714PBF MOSFET (surface mount) (http://components.arrow.com/part/detail/43467223S9550209N3340)
 * 4x  A3992 Motor Controllers (http://components.arrow.com/part/detail/42804152S9226473N6817)
 
@@ -47,15 +47,15 @@ BOM (Controller)
 
 * 1x Teensy 2.0 (http://www.pjrc.com/store/teensy_pins.html)
 * 4x 1.2k ohm resistors
-* 4x 2µF Capacitors
-* 2x 0.22µF Capacitors
-* 3x 270 ohm resistors
-* 2x 100k ohm resistor
+* 4x 2µF Capacitors (http://components.arrow.com/part/detail/41357791S7970027N1024)
+* 3x 0.22µF Capacitors, Axial (http://components.arrow.com/part/detail/41292784S7821294N7429)
+* 3x 270 ohm resistors (http://components.arrow.com/part/detail/44289058S9568004N5665)
+* 2x 100k ohm resistor (http://components.arrow.com/part/detail/24613340S2290496N1082)
 * 2x 4.7k ohm resistor
-* 3x 5-pin locking headers
-* 2x 2-pin locking header
-* 1x 2x10 pin header
-* 1x 1x1 pin header (or jumper cable)
+* 3x 5-pin locking headers (http://components.arrow.com/part/detail/3064683S8031236N5665)
+* 2x 2-pin locking headers (http://components.arrow.com/part/detail/4703590S3494260N3303)
+* 1x 2x10 pin header (http://components.arrow.com/part/detail/4690939S2927515N3303)
+* 3x Pin Socket (http://components.arrow.com/part/detail/2700795S3633656N1004)
 
 Cost: ~$26
 
@@ -63,10 +63,14 @@ BOM (Not on PCB)
 ----------------
 * 3x Optointerruptors (http://components.arrow.com/part/detail/690701S2637435N3506)
 * 1x 20-conductor Ribbon (http://components.arrow.com/part/detail/2520919S3684624N3321)
-* 2x 20-conductor Female Plugs (http://components.arrow.com/part/detail/1318957S3517464N3321)
+* 2x 20-conductor Female Plugs (http://components.arrow.com/part/detail/1318974S3517474N3321)
 * 2x Thermistor (http://components.arrow.com/part/detail/42078290S9672476N9769)
 * 1x Power Resistor 8r
-* (More TBD: Connectors)
+* 43x KK Female crimp contacts (http://components.arrow.com/part/detail/4779606S3155738N3303)
+* 3x 5-pin KK locking housing (http://components.arrow.com/part/detail/4702036S3156044N3303)
+* 5x 4-pin KK locking housing
+* 4x 2-pin KK locking housing
+* (More TBD: Misc Wire)
 
 Cost: ~$8
 
